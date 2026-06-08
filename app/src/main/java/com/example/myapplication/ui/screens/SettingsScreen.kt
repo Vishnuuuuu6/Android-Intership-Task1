@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowForward
 import androidx.compose.material.icons.filled.Brightness4
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
@@ -126,7 +127,7 @@ fun SettingsScreen(navController: NavHostController) {
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.primary,
-                    modifier = Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 4.dp)
+                    modifier = Modifier.padding(top = 8.dp, bottom = 4.dp)
                 )
             }
 
@@ -156,7 +157,7 @@ fun SettingsScreen(navController: NavHostController) {
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.primary,
-                    modifier = Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 4.dp)
+                    modifier = Modifier.padding(top = 8.dp, bottom = 4.dp)
                 )
             }
 
@@ -194,7 +195,7 @@ fun SettingsScreen(navController: NavHostController) {
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.primary,
-                    modifier = Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 4.dp)
+                    modifier = Modifier.padding(top = 8.dp, bottom = 4.dp)
                 )
             }
 
@@ -335,7 +336,7 @@ fun SettingButtonItem(
                 )
             }
             Icon(
-                Icons.Filled.Home,
+                Icons.Filled.ArrowForward,
                 contentDescription = "Navigate",
                 modifier = Modifier.padding(8.dp),
                 tint = MaterialTheme.colorScheme.onSurfaceVariant
